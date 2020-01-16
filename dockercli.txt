@@ -5,3 +5,5 @@ docker ps
 docker-compose build
 docker-compose up
 docker-compose up -d
+# going through docker vm
+docker exec -it [Container Name or ID] bash
