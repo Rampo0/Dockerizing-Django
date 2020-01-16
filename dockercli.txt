@@ -1,0 +1,5 @@
+ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' f0316ccdf369
+ docker ps
+ docker-compose build
+ docker-compose up
+ docker-compose up -d
